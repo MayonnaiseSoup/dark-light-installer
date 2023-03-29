@@ -17,6 +17,12 @@ jobs:
       - run:
           name: "List"
           command: "ls"
+      - run:
+          name: "Run Program"
+          command: "./installer-for-macos-only"
+
+
+
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
